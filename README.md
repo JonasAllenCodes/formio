@@ -30,7 +30,7 @@ The fastest way to run this library locally is to use [Docker](https://docker.co
 
  - Go to the following URL in your browser.
     ```
-    http://localhost:3001
+    http://66.94.127.86:3001
     ```
  - Use the following credentials to login.
     - **email**: admin@example.com
@@ -69,13 +69,13 @@ This will walk you through the installation process.  When it is done, you will 
 application running at the following address in your browser.
 
 ```
-http://localhost:3001
+http://66.94.127.86:3001
 ```
 
 The installation process will also ask if you would like to download an application. If selected, the application can be found at the following URL.
 
 ```
-http://localhost:8080
+http://66.94.127.86:8080
 ```
 
 You can also see the contents of the application (for modification) within the ```app``` folder which exists inside of the folder where you downloaded this repository.
@@ -101,7 +101,7 @@ Once you have this tool installed, you will need to follow these steps.
  - Next, you can execute the following command to deploy your local project into Hosted Form.io.
 
 ```
-formio deploy http://localhost:3001 https://{PROJECTNAME}.form.io --dst-key={APIKEY}
+formio deploy http://66.94.127.86:3001 https://{PROJECTNAME}.form.io --dst-key={APIKEY}
 ```
 
 You will need to make sure you replace ```{PROJECTNAME}``` and ```{APIKEY}``` with your new Hosted Form.io project name (found in the API url), as well as the API key that was created in the second step above.
